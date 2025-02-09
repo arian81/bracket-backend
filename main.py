@@ -14,6 +14,6 @@ def load_json_leaderboard():
     return leaderboard
 
 
-@app.get("/faces")
-async def get_faces():
+@app.get("/leaderboard")
+async def get_leaderboard():
     return load_json_leaderboard()
